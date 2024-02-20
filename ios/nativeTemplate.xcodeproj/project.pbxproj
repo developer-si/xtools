@@ -727,7 +727,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
@@ -809,7 +809,7 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
@@ -864,7 +864,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = Debug;
 		};
@@ -918,7 +918,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = Release;
 		};
@@ -977,7 +977,7 @@
 				VALIDATE_PRODUCT = YES;
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
@@ -1059,7 +1059,7 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
@@ -1114,7 +1114,7 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = ReleaseDevApp;
 		};
@@ -1180,7 +1180,7 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
@@ -1240,7 +1240,7 @@
 				VALIDATE_PRODUCT = YES;
 				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
