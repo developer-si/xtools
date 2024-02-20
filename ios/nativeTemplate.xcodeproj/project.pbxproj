@@ -725,6 +725,10 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
 		};
@@ -798,12 +802,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
 		};
@@ -820,9 +827,9 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -856,6 +863,8 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
 			};
 			name = Debug;
 		};
@@ -872,10 +881,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -908,6 +917,8 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
 			};
 			name = Release;
 		};
@@ -964,6 +975,10 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
 		};
@@ -1037,12 +1052,15 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
 		};
@@ -1059,10 +1077,10 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1095,6 +1113,8 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
 			};
 			name = ReleaseDevApp;
 		};
@@ -1158,6 +1178,10 @@
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
 		};
@@ -1214,6 +1238,10 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Xtools";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Killian VINCENT (H6QP89SHH2)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
 		};
