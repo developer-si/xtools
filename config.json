@@ -8,7 +8,7 @@
     },
     "deviceTarget": {
         "phone": true,
-        "tablet": true
+        "tablet": false
     },
     "orientation": {
         "portrait": true,
@@ -113,7 +113,7 @@
             "enabled": false
         },
         "localNotifications": {
-            "enabled": true
+            "enabled": false
         },
         "appCenterOTA": {
             "enabled": false
@@ -122,8 +122,8 @@
             "enabled": true
         }
     },
-    "appVersion": "1.0.41",
-    "buildNumber": 42,
+    "appVersion": "1.0.40",
+    "buildNumber": 40,
     "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": false
 }
