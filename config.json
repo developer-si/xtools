@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "xtools.accp",
-    "appName": "Xtools Acceptance",
+    "appIdentifier": "xtools.prod",
+    "appName": "Xtools",
     "bundleName": {
         "main": "Xtools",
         "dev": "XtoolsDev"
@@ -82,7 +82,7 @@
     ],
     "capabilities": {
         "deepLink": {
-            "value": "xtoolsaccp",
+            "value": "xtoolsprod",
             "enabled": true,
             "android": {
                 "webLinks": [
@@ -123,7 +123,7 @@
         }
     },
     "appVersion": "1.0.41",
-    "buildNumber": 41,
-    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
+    "buildNumber": 42,
+    "runtimeUrl": "https://xtools.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": false
 }
