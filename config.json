@@ -122,8 +122,8 @@
             "enabled": true
         }
     },
-    "appVersion": "1.0.57",
-    "buildNumber": 57,
-    "runtimeUrl": "https://xtools.apps.eu-1c.mendixcloud.com",
+    "appVersion": "1.0.56",
+    "buildNumber": 63,
+    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": false
 }
