@@ -6,25 +6,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
-- We have resolved an issue where remote JavaScript debugging failed in a custom-built Mendix Native Developer App, leading to crashes when enabling “Remote JS Debugging.” The problem was caused by Firebase services not being initialized properly during the build process. We have ensured that Firebase dependencies are now only included when explicitly required by the application.
+## [11.0.4] - 2025-01-15
 
-## [8.2.9] - 2025-01-07
+- We resolved an issue with the bundle identifier in the Dev scheme on Xcode.
+
+## [11.0.2] - 2025-01-13
+
+- We have resolved an issue where remote JavaScript debugging failed in a custom-built Mendix Native Developer App, leading to crashes when enabling “Remote JS Debugging.” The problem was caused by Firebase services not being initialized properly during the build process. We have ensured that Firebase dependencies are now only included when explicitly required by the application
+
+## [11.0.1] - 2025-01-7
 
 - We have updated the AppCenter's Xcode version to 15.4.
+- We added a parameter to Xcode configs to fix Bundle Identifier issues.
 
-## [8.2.8] - 2024-12-23
+## [11.0.0] - 2024-12-18
 
-- We have updated min sdk to 23 on android.
+- We've removed the support for JSC entirely from Studio Pro version 10.18 and up. All native apps are using Hermes JS engine now. The native apps need to be rebuilt via Studio Pro (App -> Build Native Mobile App).
 
-## [8.2.7] - 2024-09-03
+## [10.0.0] - 2024-11-27
 
+- We've upgraded the core framework to React Native 0.75.4 to enhance performance, stability, and compatibility across both Android and iOS platforms.
+
+## [9.0.3] - 2024-10-02
+
+- We upgraded android SDK version to 35
+- We have updated `react-native-permissions` to version 4.1.5
+
+## [9.0.1] - 2024-09-03
+
+- We have upgraded `react-native-video` to 6.4.5
 - We have fixed OTA updates compatibility issues on iOS 18.
 
-## [8.2.6] - 2024-08-02
+## [9.0.0] - 2024-07-12
 
-- Upgraded buildToolsVersion, compileSdkVersion, and targetSdkVersion to 34 for Android.
+### Added
 
-## [8.2.5] - 2024-07-25
+- We have upgrade react-native to version 0.73.8.
+
+## [8.2.5] - 2024-07-05
 
 - We have updated the @mendix/native dependency to fix the encryption issue.
 
