@@ -675,7 +675,7 @@
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -744,6 +744,9 @@
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
 		};
@@ -755,7 +758,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -818,12 +821,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
 		};
@@ -842,7 +847,7 @@
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BC32QNM6AD;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -871,7 +876,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Native Template iOS Pipeline DEBUG";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${SRCROOT}/../node_modules/@mendix/native/ios";
@@ -879,6 +884,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = Debug;
 		};
@@ -898,7 +904,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BC32QNM6AD;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -926,7 +932,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Native Template iOS Pipeline DEBUG";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${SRCROOT}/../node_modules/@mendix/native/ios";
@@ -934,6 +940,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = Release;
 		};
@@ -1001,6 +1008,10 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
 		};
@@ -1012,7 +1023,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = BC32QNM6AD;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1075,12 +1086,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${PROJECT_DIR} ${SRCROOT}/../node_modules/@mendix/native/ios";
 				SWIFT_OBJC_BRIDGING_HEADER = "nativeTemplate-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = ReleaseDevApp;
 		};
@@ -1100,7 +1113,7 @@
 				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = BC32QNM6AD;
 				ENABLE_BITCODE = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1128,7 +1141,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "$(PRODUCT_BUNDLE_IDENTIFIER)";
 				PRODUCT_NAME = "$(PRODUCT_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Native Template iOS Pipeline DEBUG";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_INCLUDE_PATHS = "$(inherited) ${SRCROOT}/../node_modules/@mendix/native/ios";
@@ -1136,6 +1149,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
 			};
 			name = ReleaseDevApp;
 		};
@@ -1208,6 +1222,10 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
 				TARGETED_DEVICE_FAMILY = 1;
 				USE_HERMES = true;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Debug;
 		};
@@ -1275,6 +1293,10 @@
 				TARGETED_DEVICE_FAMILY = 1;
 				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
+				DEVELOPMENT_TEAM = UKD4NRHC4N;
+				PROVISIONING_PROFILE_SPECIFIER = "Provisioning Profile Distribution AppStore Connect";
+				CODE_SIGN_IDENTITY = "Apple Distribution: DV GROUP (Apps) (UKD4NRHC4N)";
+				CODE_SIGN_STYLE = Manual;
 			};
 			name = Release;
 		};
