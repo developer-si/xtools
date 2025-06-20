@@ -62,11 +62,11 @@ android {
 
     namespace "com.mendix.nativetemplate"
     defaultConfig {
-        applicationId "xtools.prod.dv"
+        applicationId "xtools.accp.dv"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
-        versionCode 100
+        versionCode 101
         versionName "1.0.60"
         testBuildType System.getProperty("testBuildType", "debug")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
