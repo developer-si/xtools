@@ -122,9 +122,6 @@
             "enabled": false
         }
     },
-    "appVersion": "1.0.60",
-    "buildNumber": 99,
-    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
 }
