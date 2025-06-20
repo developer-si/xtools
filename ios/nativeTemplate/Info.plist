@@ -26,7 +26,7 @@
     <key>CFBundleSignature</key>
     <string>????</string>
     <key>CFBundleVersion</key>
-    <string>99</string>
+    <string>100</string>
     <key>GoogleMapsApiKey</key>
     <string/>
     <key>LSRequiresIPhoneOS</key>
@@ -95,10 +95,10 @@
         <key>CFBundleTypeRole</key>
         <string>Editor</string>
         <key>CFBundleURLName</key>
-        <string>xtoolsaccp</string>
+        <string>xtoolsprod</string>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>xtoolsaccp</string>
+          <string>xtoolsprod</string>
         </array>
       </dict>
     </array>

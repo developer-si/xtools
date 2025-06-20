@@ -82,7 +82,7 @@
     ],
     "capabilities": {
         "deepLink": {
-            "value": "xtoolsaccp",
+            "value": "xtoolsprod",
             "enabled": true,
             "android": {
                 "webLinks": [
@@ -123,5 +123,8 @@
         }
     },
     "hermesEnabled": true,
-    "cookieEncryptionEnabled": false
+    "cookieEncryptionEnabled": false,
+    "appVersion": "1.0.60",
+    "buildNumber": 100,
+    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com"
 }
