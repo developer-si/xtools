@@ -1,7 +1,7 @@
 {
     "configVersion": 2,
-    "appIdentifier": "xtools.accp.dv",
-    "appName": "Xtools acceptance",
+    "appIdentifier": "xtools.prod.dv",
+    "appName": "Xtools",
     "bundleName": {
         "main": "Xtools",
         "dev": "XtoolsDev"
@@ -126,5 +126,5 @@
     "cookieEncryptionEnabled": false,
     "appVersion": "1.0.60",
     "buildNumber": 100,
-    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com"
+    "runtimeUrl": "https://xtools.apps.eu-1c.mendixcloud.com"
 }
