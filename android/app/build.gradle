@@ -1,6 +1,7 @@
 apply plugin: "com.android.application"
 apply plugin: "org.jetbrains.kotlin.android"
 apply plugin: "com.facebook.react"
+apply plugin: 'org.jetbrains.kotlin.plugin.compose'
 
 /**
  * This is the configuration block to customize your React Native Android app.
@@ -62,15 +63,16 @@ android {
 
     namespace "com.mendix.nativetemplate"
     defaultConfig {
-        applicationId "xtools.accp.dv"
+        applicationId "com.mendix.nativetemplate"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         missingDimensionStrategy "react-native-camera", "general"
-        versionCode 101
-        versionName "1.0.60"
+        versionCode 1
+        versionName "1.0"
         testBuildType System.getProperty("testBuildType", "debug")
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         resValue "string", "CODE_PUSH_APK_BUILD_TIME", String.format("\"%d\"", System.currentTimeMillis())
+        manifestPlaceholders["cookieEncryption"] = project.hasProperty("mendixnative.cookieEncryption") ? project.property("mendixnative.cookieEncryption") : "false"
     }
     flavorDimensions "mode"
     productFlavors {
@@ -102,6 +104,7 @@ android {
     }
     packagingOptions {
         pickFirst "**/libc++_shared.so"
+        pickFirst "**/libcrypto.so"
     }
 }
 
