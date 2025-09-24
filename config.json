@@ -54,6 +54,20 @@
             "required": true
         },
         {
+            "title": "Photo Library Usage",
+            "name": "NSPhotoLibraryUsageDescription",
+            "purpose": "This app requires access to your photo library to let you import and share your photos.",
+            "platform": "ios",
+            "required": true
+        },
+        {
+            "title": "Photo Library Add Usage",
+            "name": "NSPhotoLibraryAddUsageDescription",
+            "purpose": "This app needs permission to save photos to your photo library.",
+            "platform": "ios",
+            "required": true
+        },
+        {
             "title": "Camera Usage",
             "name": "NSCameraUsageDescription",
             "purpose": "The camera can be used to open apps by scanning a QR code.",
