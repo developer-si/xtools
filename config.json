@@ -1,6 +1,6 @@
 {
     "configVersion": 2,
-    "appIdentifier": "Xtools.accp.dv.test",
+    "appIdentifier": "xtools.accp.dv",
     "appName": "Xtools acceptance",
     "bundleName": {
         "main": "Xtools",
