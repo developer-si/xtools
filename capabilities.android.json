@@ -1,5 +1,5 @@
 {
-    "deepLink": true,
+    "deepLink": false,
     "firebaseIos": false,
     "firebaseAndroid": false,
     "crashlytics": false,
@@ -7,6 +7,5 @@
     "pushNotifications": false,
     "appCenterOTA": false,
     "maps": false,
-    "mapsIos": false,
-    "nativeOTA": false
+    "mapsIos": false
 }
