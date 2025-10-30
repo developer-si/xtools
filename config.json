@@ -119,12 +119,12 @@
             "enabled": false
         },
         "nativeOTA": {
-            "enabled": false
+            "enabled": true
         }
     },
+    "appVersion": "1.0.71",
+    "buildNumber": 102,
+    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": true,
-    "cookieEncryptionEnabled": false,
-    "appVersion": "1.0.62",
-    "buildNumber": 101,
-    "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com"
+    "cookieEncryptionEnabled": false
 }
