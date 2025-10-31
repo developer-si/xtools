@@ -78,6 +78,20 @@
             "purpose": "To use that feature, the app needs access to your location.",
             "platform": "ios",
             "required": true
+        },
+        {
+            "title": "Photo Library Usage",
+            "name": "NSPhotoLibraryUsageDescription",
+            "purpose": "To use that feature, the app needs access to your photo library.",
+            "platform": "ios",
+            "required": false
+        },
+        {
+            "title": "Photo Library Add Usage",
+            "name": "NSPhotoLibraryAddUsageDescription",
+            "purpose": "To use that feature, the app needs access to your photo library.",
+            "platform": "ios",
+            "required": false
         }
     ],
     "capabilities": {
@@ -123,7 +137,7 @@
         }
     },
     "appVersion": "1.0.71",
-    "buildNumber": 102,
+    "buildNumber": 103,
     "runtimeUrl": "https://xtools-accp.apps.eu-1c.mendixcloud.com",
     "hermesEnabled": true,
     "cookieEncryptionEnabled": false
